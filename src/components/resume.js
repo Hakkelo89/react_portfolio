@@ -19,7 +19,7 @@ const Resume = () => {
               <div className="header">
                 <h3>
                   Download Resume:{" "}
-                  <a href="https://github.com/hakkelo89/react-portfolio/raw/master/src/assets/hakel-resume.pdf">
+                  <a href="https://drive.google.com/file/d/1KcQALBSNn0gU6xjZUcZIADPwfr9qwAde/view">
                     Mehmet Hakel Çam
                   </a>
                 </h3>
