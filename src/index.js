@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "../src/index.css";
 import App from "./App";
 import * as serviceWorker from "../src/serviceWorker";
+import { HashRouter as Router } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import ParticlesBg from "particles-bg";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,46 +1,42 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Redirect,
-} from "react-router-dom";
-import About from "./about";
-import Portfolio from "./portfolio";
-import Contact from "./contact";
-import Resume from "./resume";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <Router>
-      <div className="topnav">
-        <div className="topnav-left">
-          <Link to="/about">ABOUT</Link>
-        </div>
-        <div className="topnav-right">
-          <Link to="/portfolio">PORTFOLIO</Link>
-          <Link to="/contact">CONTACT</Link>
-          <Link to="/resume">RESUME</Link>
-          <Redirect from="/" exact to="/about" />
-        </div>
+    <div className="topnav">
+      <div className="topnav-left">
+        <NavLink
+          activeClassName="navbar__link--active"
+          className="navbar__link"
+          to="/about"
+        >
+          ABOUT
+        </NavLink>
       </div>
-
-      <Switch>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-      </Switch>
-    </Router>
+      <div className="topnav-right">
+        <NavLink
+          activeClassName="navbar__link--active"
+          className="navbar__link"
+          to="/portfolio"
+        >
+          PORTFOLIO
+        </NavLink>
+        <NavLink
+          activeClassName="navbar__link--active"
+          className="navbar__link"
+          to="/contact"
+        >
+          CONTACT
+        </NavLink>
+        <NavLink
+          activeClassName="navbar__link--active"
+          className="navbar__link"
+          to="/resume"
+        >
+          RESUME
+        </NavLink>
+      </div>
+    </div>
   );
 }
 

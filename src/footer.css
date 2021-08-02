@@ -1,9 +1,9 @@
 :root {
   /* from coolers: https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51 */
-  --orange-soda: #f06543;
+  --orange-soda: #d55130;
   --platinum: #e8e9eb;
   --alabaster: #e0dfd5;
-  --onyx: #313638;
+  --onyx: #52abce;
   --sandy-brown: #f09d51;
 }
 
@@ -24,11 +24,6 @@ h1 {
   padding: 10px;
   color: var(--onyx);
   font-weight: bold;
-}
-
-#project-icon {
-  background-color: var(--platinum);
-  padding: 5px;
 }
 
 #topics {
@@ -52,15 +47,6 @@ h1 {
   padding: 10px;
 }
 
-#about-section {
-  margin: 2em;
-}
-
-#about-section p {
-  background-color: var(--alabaster);
-  color: var(--onyx);
-}
-
 #contact-section {
   justify-content: center;
   margin: 20px;
@@ -68,26 +54,8 @@ h1 {
   margin-right: 2em;
 }
 
-#front-back ul {
-  list-style-type: none;
-}
-
-#front-back ul li {
-  list-style-type: none;
-}
-
-#front-back h2 {
-  color: var(--onyx);
-}
-
-#front-back p {
-  background-color: var(--alabaster);
-}
-
-#resume p {
-  background-color: var(--alabaster);
-  color: var(--onyx);
-  margin-top: 5px;
+.error-text {
+  color: var(--orange-soda);
 }
 
 #footer {

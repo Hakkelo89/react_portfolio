@@ -3,6 +3,9 @@ import Logo from "../assets/img/logo.png";
 import JqueryLogo from "../assets/img/jquery-logo.png";
 import BootstrapLogo from "../assets/img/bootstrap-logo.png";
 import MernLogo from "../assets/img/mern-logo.png";
+import HandlebarsLogo from "../assets/img/handlebars-logo.png";
+import SqlLogo from "../assets/img/sql-logo.png";
+import MongoLogo from "../assets/img/mongodb-logo.png";
 import "../App.css";
 import "../portfolio.css";
 
@@ -13,6 +16,21 @@ const Resume = () => {
         <div className="row">
           <div className="col">
             <div className="card">
+              <div className="header">
+                <h3>
+                  Download Resume:{" "}
+                  <a href="https://github.com/hakkelo89/react-portfolio/raw/master/src/assets/hakel-resume.pdf">
+                    Mehmet Hakel Çam
+                  </a>
+                </h3>
+              </div>
+
+              <div className="modal-footer" />
+
+              <div className="header">
+                <h3>Skills</h3>
+              </div>
+              <div className="modal-footer" />
               <div className="card-body">
                 <div className="row">
                   <div className="code">Computer Science Fundamentals</div>
@@ -36,7 +54,7 @@ const Resume = () => {
 
               <div className="card-body">
                 <div className="row">
-                  <div className="code">Web Technologies</div>
+                  <div className="code">Technologies</div>
                 </div>
 
                 <div className="grid-container-skills">
@@ -54,6 +72,17 @@ const Resume = () => {
 
                   <div className="grid-item-skills">
                     <img src={BootstrapLogo} className="img-skills" />
+                  </div>
+                  <div className="grid-item-skills">
+                    <img src={HandlebarsLogo} className="img-skills" />
+                  </div>
+
+                  <div className="grid-item-skills">
+                    <img src={SqlLogo} className="img-skills" />
+                  </div>
+
+                  <div className="grid-item-skills">
+                    <img src={MongoLogo} className="img-skills" />
                   </div>
                 </div>
               </div>
