@@ -2,7 +2,7 @@
 
 ### Application Deployment
 
-https://github.com/Hakkelo89/react_portfolio
+https://hakkelo89.github.io/react_portfolio/
 
 ### User Story
 
