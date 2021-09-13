@@ -83,7 +83,7 @@ export default [
     deploy: "https://vast-hollows-15179.herokuapp.com/dashboard",
   },
   {
-    id: 10,
+    id: 11,
     name: "Pridely",
     image: Pridely,
     github: "https://github.com/Hakkelo89/pridely",
