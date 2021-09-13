@@ -8,6 +8,7 @@ import NoteTracker from "../src/assets/img/notetakerapp.png";
 import BudgetTracker from "../src/assets/img/budget_tracker.png";
 import TechBlog from "../src/assets/img/techblog.png";
 import CodeQuiz from "../src/assets/img/codequiz.png";
+import Pridely from "../src/assets/img/pridely.png";
 
 export default [
   {
