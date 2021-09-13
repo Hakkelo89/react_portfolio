@@ -81,4 +81,11 @@ export default [
     github: "https://github.com/Hakkelo89/Tech-Blog-Mvc",
     deploy: "https://vast-hollows-15179.herokuapp.com/dashboard",
   },
+  {
+    id: 10,
+    name: "Pridely",
+    image: Pridely,
+    github: "https://github.com/Hakkelo89/pridely",
+    deploy: "https://secure-falls-86718.herokuapp.com/",
+  },
 ];
