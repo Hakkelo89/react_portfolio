@@ -19,7 +19,7 @@ const Resume = () => {
               <div className="header">
                 <h3>
                   Download Resume:{" "}
-                  <a href="https://drive.google.com/file/d/1Iu7gTHzEcmj8MROKjJEq8SdaVuT7mCDc/view?ths=true">
+                  <a href="https://drive.google.com/file/d/1cw6tD94XR8Ka6AapDZEJwFyoOkKOFhYT/view?ths=true">
                     Mehmet Hakel Çam
                   </a>
                 </h3>
