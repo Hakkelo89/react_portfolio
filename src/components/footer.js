@@ -32,7 +32,7 @@ function Footer() {
       </div>
 
       <p className="footer-info">
-        &copy; Mehmet Hakel Çam aaaaaaaaaaaaaa|{" "}
+        &copy; Mehmet Hakel Çam |{" "}
         <a
           href="https://hakkelo89.github.io/homework-week-2/assets/documents/Mehmet%20Hakel%20%C3%87am%20CV_1.pdf?"
           className="link"
